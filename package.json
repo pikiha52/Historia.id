@@ -1,0 +1,31 @@
+{
+  "name": "historia_backend",
+  "version": "1.0.0",
+  "description": "Backend test skill historia.id",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd -f .env nodemon app.js"
+  },
+  "author": "Pikih A",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.23.0",
+    "sequelize-cli": "^6.4.1",
+    "env-cmd": "^10.1.0",
+    "morgan": "~1.9.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth": "^2.0.0",
+    "express-session": "^1.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

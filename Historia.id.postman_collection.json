@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "705539dd-b4bb-47b6-af27-ce2e74e52f46",
+		"name": "Historia.id",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "users",
+			"item": [
+				{
+					"name": "list",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImVtYWlsIjoicGlraWhhNTJAZ21haWwuY29tIiwiaWF0IjoxNjc5Njc0MTE0LCJleHAiOjE2Nzk3NjA1MTR9.jeklOUTFW1L6lnvR72t-WTiXYBhtoKrDxFL4E83yrUo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/api/v1/users",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"users"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
